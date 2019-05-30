@@ -12,16 +12,16 @@ Welcome to OVAL! OVAL uses one slim, movable menu to provide you with many funct
 
 Menu Feature | Notes
 ----------------------------------------- | -------------
-![Move UI Panel](Images/MoveUIPanel.PNG) | The "Move This" button on the top-left of the menu will allow you to place the menu anywhere you like for your viewing convenience. 
-![Network Panel](Images/NetworkPanel.PNG) | OVAL is networked and allows users to meet and view 3D models in an online lab. As long as users have the same "room" defined, they will show up in the same space. One user will have complete controls. Any other user will have limited controls. 
-![Mode Panel](Images/MovePanel.PNG) | Specify whether the controller(s) should move you, the scene light source, or the model.
-![Mode Panel](Images/ModePanel.PNG) | This allows you to switch between drag, annotate, indicate, screenshot, and measure modes.
-![Annotate Panel](Images/AnnotatePanel.PNG) | This mode allows you to annotate on the model. Your laser will paint on the first surface it touches when you pull the trigger. You can select one color or two colors for a gradient for your annotation color. 
-![Measure Panel](Images/MeasurePanel.PNG) | Measure mode allows you to place to dots on or around your model. OVAL will tell you the straight-line distance between those two points to assist in measuring the model. 
-![Model Panel](Images/ModelPanel.PNG) | The model load screen will display any models you have added to the model directory. You can also use the button to load files located in other places on your computer. OVAL can be used to view .obj, .stl, .blend, .fbx, and .dae.
-![Clip Panel](Images/ClipPanel.PNG) | Apply a clipping plane to models in the scene to enable cutaways and cross-sections through data.
-![Screenshot Panel](Images/ScreenshotPanel.PNG) | Provides screenshots when the controller trigger is pressed.
-![Video Panel](Images/VideoPanel.PNG) | Provides video capture functionality.
+![Move UI Panel](Images/MoveUIPanel.png) | The "Move This" button on the top-left of the menu will allow you to place the menu anywhere you like for your viewing convenience. 
+![Network Panel](Images/NetworkPanel.png) | OVAL is networked and allows users to meet and view 3D models in an online lab. As long as users have the same "room" defined, they will show up in the same space. One user will have complete controls. Any other user will have limited controls. 
+![Mode Panel](Images/MovePanel.png) | Specify whether the controller(s) should move you, the scene light source, or the model.
+![Mode Panel](Images/ModePanel.png) | This allows you to switch between drag, annotate, indicate, screenshot, and measure modes.
+![Annotate Panel](Images/AnnotatePanel.png) | This mode allows you to annotate on the model. Your laser will paint on the first surface it touches when you pull the trigger. You can select one color or two colors for a gradient for your annotation color. 
+![Measure Panel](Images/MeasurePanel.png) | Measure mode allows you to place to dots on or around your model. OVAL will tell you the straight-line distance between those two points to assist in measuring the model. 
+![Model Panel](Images/ModelPanel.png) | The model load screen will display any models you have added to the model directory. You can also use the button to load files located in other places on your computer. OVAL can be used to view .obj, .stl, .blend, .fbx, and .dae.
+![Clip Panel](Images/ClipPanel.png) | Apply a clipping plane to models in the scene to enable cutaways and cross-sections through data.
+![Screenshot Panel](Images/ScreenshotPanel.png) | Provides screenshots when the controller trigger is pressed.
+![Video Panel](Images/VideoPanel.png) | Provides video capture functionality.
 
 # OVAL-related Publications
 - [Multi-Campus VR Session Tours Remote Cave Art](https://campustechnology.com/articles/2017/10/09/multi-campus-vr-session-tours-remote-cave-art.aspx)
