@@ -1,5 +1,5 @@
 # OVAL (Oklahoma Virtual Academic Labratory)
-The Oklahoma Virtual Academic Laboratory (OVAL) is a VR-Classroom application designed to encourage remote collaboration between academics. Up to on hundred users can inhabit the same VR space, import 3D content, and analyze those models with built-in tools.
+The Oklahoma Virtual Academic Laboratory (OVAL) is a VR-Classroom application designed to encourage remote collaboration between academics. Up to one hundred users can inhabit the same VR space, import 3D content, and analyze those models with built-in tools.
 
 Table of contents:
 
@@ -20,16 +20,16 @@ OVAL uses one slim, movable menu to provide you with many functional tools to he
 
 Menu Feature | Notes
 ----------------------------------------- | -------------
-![Move UI Panel](Images/MoveUIPanel.png) | The "Move This" button on the top-left of the menu will allow you to place the menu anywhere you like for your viewing convenience.
-![Network Panel](Images/NetworkPanel.png) | OVAL is networked and allows users to meet and view 3D models in an online lab. As long as users have the same "room" defined, they will show up in the same space. One user will have complete controls. Any other user will have limited controls.
-![Mode Panel](Images/MovePanel.png) | Specify whether the controller(s) should move you, the scene light source, or the model.
-![Mode Panel](Images/ModePanel.png) | This allows you to switch between drag, annotate, indicate, screenshot, and measure modes.
-![Annotate Panel](Images/AnnotatePanel.png) | This mode allows you to annotate on the model. Your laser will paint on the first surface it touches when you pull the trigger. You can select one color or two colors for a gradient for your annotation color.
+![Move UI Panel](Images/MoveUIPanel.png) | Clicking the "Move This" button on the top-left of the menu will allow you to place the menu anywhere you like for your viewing convenience (click again to "drop" the menu).
+![Network Panel](Images/NetworkPanel.png) | OVAL is networked and allows users to meet and view 3D models in a shared "room". As long as users join the same room, they will share the same space. One user will have complete controls, and the other users will only control their own local position in the room.
+![Mode Panel](Images/MovePanel.png) | Specify whether the controller(s) should move you, the light in the room, or the 3D models in the room.
+![Mode Panel](Images/ModePanel.png) | This option allows you to select the current mode (e.g. drag, annotate, indicate, screenshot, measure, and video modes).
+![Annotate Panel](Images/AnnotatePanel.png) | Annotation mode allows you to "draw" on 3D model(s). Your laser will paint on the first surface it touches when you pull the trigger, and you can control the color and line width of the resultant annotation.
 ![Measure Panel](Images/MeasurePanel.png) | Measure mode allows you to place to dots on or around your model. OVAL will tell you the straight-line distance between those two points to assist in measuring the model.
-![Model Panel](Images/ModelPanel.png) | The model load screen will display any models you have added to the model directory. You can also use the button to load files located in other places on your computer. OVAL can be used to view .obj, .stl, .blend, .fbx, and .dae.
-![Clip Panel](Images/ClipPanel.png) | Apply a clipping plane to models in the scene to enable cutaways and cross-sections through data.
-![Screenshot Panel](Images/ScreenshotPanel.png) | Provides screenshots when the controller trigger is pressed.
-![Video Panel](Images/VideoPanel.png) | Provides video capture functionality.
+![Model Panel](Images/ModelPanel.png) | The model panel allows loading model from the [model directory](#ConfigFile:ModelPath) and displays any models previously loaded. Visibility of specific models can also be toggled on or off. OVAL supports several file formats, including `.obj`, `.stl`, `.blend`, `.fbx`, and `.dae`.
+![Clip Panel](Images/ClipPanel.png) | Clipping plane mode applies a clipping plane to models in the scene, enabling cutaways and cross-sections through 3D data.
+![Screenshot Panel](Images/ScreenshotPanel.png) | Screenshot model takes screenshots when the controller trigger is pressed. Screenshots are saved to the [screenshot directory](#ConfigFile:ScreenshotPath).
+![Video Panel](Images/VideoPanel.png) | Video model provides video capture functionality; press the button to start taking a video, and press again to stop.
 
 ## <a name="ConfigFile"></a>Configuration file
 
