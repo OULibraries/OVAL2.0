@@ -35,7 +35,7 @@ Menu Feature | Notes
 
 The OVAL configuration file, `OVAL.config.text`, is expected to be a simple text file in the same directory from which the OVAL application is run. This text file controls certain user-configurable options for the OVAL system.
 
-*Note: in some situations, we may wish to combine space-separated words into a single item; in such cases, the words should be `"enclosed in quotation marks"`, e.g. "Two words", "John Smith", "C:\My Folder\Fun Data\"*
+*Note: in some situations, we may wish to combine space-separated words into a single item; in such cases, the words should be `"enclosed in quotation marks"`, e.g. `"Two words"`, `"John Smith"`, `"C:\My Folder\Fun Data\"`*
 
 ### <a name="ConfigFile:Comments"></a>Comment lines
 
